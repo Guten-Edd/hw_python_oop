@@ -133,10 +133,10 @@ def read_package(workout_type: str, data: list) -> Training:
         'WLK': SportsWalking
     }
 
-    if workout_type in train_dictionary:
-        return train_dictionary[workout_type](*data)
-    else:
-        raise NotImplementedError('Unknown training')
+    if workout_type not in train_dictionary.keys():
+        raise ValueError
+
+    return train_dictionary[workout_type](*data)
 
 
 def main(training: Training) -> None:
