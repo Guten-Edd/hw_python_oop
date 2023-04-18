@@ -151,6 +151,7 @@ source venv/Scripts/activate
 ***- Установите зависимости из файла requirements.txt:***
 ```
 pip install -r requirements.txt
+```
 
 ### Автор:
 [Эдуард Соловьев](https://github.com/Guten-Edd)
