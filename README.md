@@ -151,3 +151,9 @@ source venv/Scripts/activate
 ***- Установите зависимости из файла requirements.txt:***
 ```
 pip install -r requirements.txt
+
+### Автор:
+[Эдуард Соловьев](https://github.com/Guten-Edd)
+
+
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" width="50" height="50"/>
